@@ -1,13 +1,27 @@
 {
-  "name": "date",
+  "name": "d8r",
   "version": "1.0.0",
   "main": "index.js",
+  "types": "dist/index.d.ts",
+  "description": "A comprehensive date manipulation library for JavaScript/TypeScript",
   "scripts": {
+    "build": "npx tsc",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "date",
+    "datetime",
+    "typescript",
+    "javascript",
+    "utilities"
+  ],
+  "author": "Madalitso Simbeye",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeloSpot/D8r.js.git"
+  },
   "description": "",
   "devDependencies": {
     "@types/node": "^22.9.3",
