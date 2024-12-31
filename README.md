@@ -9,7 +9,7 @@ A lightweight, type-safe date manipulation library for JavaScript and TypeScript
 
 - 🔄 Date arithmetic (add/subtract days, months, years)
 - 📝 Parse and format dates with ease
-- ⚖️ Compare dates (before, after, equal)
+- ⚖️ Compare dates ( before, after, equal)
 - ✅ Validate dates and check leap years
 - 🕒 Unix timestamp conversion
 - 🛠️ Utility functions (start/end of day, month)
