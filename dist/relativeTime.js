@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.timeAgo = timeAgo;
-exports.timeFromNow = timeFromNow;
+exports.timeFromNow = exports.timeAgo = void 0;
 // Relative Time Functions (Time Ago, From Now)
 function timeAgo(date) {
     var diff = new Date().getTime() - date.getTime();
@@ -23,6 +22,7 @@ function timeAgo(date) {
     var years = Math.floor(months / 12);
     return "".concat(years, " years ago");
 }
+exports.timeAgo = timeAgo;
 function timeFromNow(date) {
     var diff = date.getTime() - new Date().getTime();
     var seconds = Math.floor(diff / 1000);
@@ -43,3 +43,4 @@ function timeFromNow(date) {
     var years = Math.floor(months / 12);
     return "in ".concat(years, " years");
 }
+exports.timeFromNow = timeFromNow;
